@@ -6,7 +6,7 @@ The Jira issue collector allows you to easily embed a JIRA feedback form into yo
 
 ## Code Example
 
-``` javacsript
+``` javascript
 // Add Jira Feedback 
 var s = document.createElement("script");
 s.type = "text/javascript";
