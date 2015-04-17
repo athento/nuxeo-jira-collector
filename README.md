@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-The Jira issue collector allows you to easily embed a JIRA feedback form into your own web site. This plugin add this snippet inside your site *head* tag.
+The Jira issue collector allows you to easily embed a JIRA feedback form into your own web site. This plugin adds this snippet inside your site *head* tag.
 
 ## Code Example
 
@@ -15,11 +15,11 @@ jQuery("head").append(s);
 ```
 
 ## Motivation
+
 From Jira documentation:
 > When used by people visiting your web site click this trigger tab and submit the resulting JIRA feedback form, an issue is conveniently created in JIRA.
 
 ## Installation
-
 
 In order to use this plugin, you must deploy it along with [nuxeo-js-addon-enabler](https://github.com/athento/nuxeo-js-addons-enabler) and add **feedback.js** to the **custom-includes.xhtml** file.
 
